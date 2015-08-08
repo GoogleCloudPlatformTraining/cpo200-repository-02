@@ -1,0 +1,1 @@
+curl  "http://metadata/computeMetadata/v1/instance/service-accounts/default/token"   -H "Metadata-Flavor: Google" 2> /dev/null | cut -d'"' -f4

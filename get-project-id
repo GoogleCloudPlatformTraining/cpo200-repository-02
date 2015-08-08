@@ -1,0 +1,1 @@
+curl "http://metadata/computeMetadata/v1/project/project-id"   -H "Metadat-Flavor: Google" 2> /dev/null
